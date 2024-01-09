@@ -6,5 +6,3 @@ all: Scheduler.cc
 	$(CXX) $(CXXFLAGS) -o Scheduler Scheduler.cc
 clean:
 	rm -f Scheduler *.o *.zip
-package:
-	zip Kerrigan-Daemon-HW5.zip README.txt Makefile Scheduler.cc
